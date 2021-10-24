@@ -20,9 +20,7 @@ for iter = 1:num_iters
     delta = delta * (alpha/m) ; 
     delta = delta' ; 
     theta = theta - delta ; 
-
-
-
+    
     % ============================================================
 
     % Save the cost J in every iteration    
